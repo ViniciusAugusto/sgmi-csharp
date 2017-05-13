@@ -208,6 +208,7 @@
     <Compile Include="Controllers\EstadoController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\MembrosController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -292,6 +293,11 @@
     <Content Include="Views\Cidade\Details.cshtml" />
     <Content Include="Views\Cidade\Edit.cshtml" />
     <Content Include="Views\Cidade\Index.cshtml" />
+    <Content Include="Views\Membros\Create.cshtml" />
+    <Content Include="Views\Membros\Delete.cshtml" />
+    <Content Include="Views\Membros\Details.cshtml" />
+    <Content Include="Views\Membros\Edit.cshtml" />
+    <Content Include="Views\Membros\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

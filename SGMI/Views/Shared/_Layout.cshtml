@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title - My ASP.NET Application</title>
+    <link href="https://cdn.datatables.net/1.10.15/css/jquery.dataTables.min.css" rel="stylesheet" />
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 
@@ -25,6 +26,8 @@
                     <li>@Html.ActionLink("About", "About", "Home")</li>
                     <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
                     <li>@Html.ActionLink("Estados", "Index", "Estado")</li>
+                    <li>@Html.ActionLink("Cidades", "Index", "Cidade")</li>
+                    <li>@Html.ActionLink("Membros", "Index", "Membros")</li>
                 </ul>
                 @Html.Partial("_LoginPartial")
             </div>
@@ -41,5 +44,7 @@
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
+
+   
 </body>
 </html>
